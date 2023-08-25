@@ -2,11 +2,13 @@
 using RabbitMQSender;
 using System;
 using System.IO;
+using System.Text.Json;
 
 namespace RabbitMQApp
 {
     class Program
     {
+        static IConfigurationRoot configuration;
         static void Main(string[] args)
         {
             IConfiguration configuration = new ConfigurationBuilder()
@@ -14,7 +16,8 @@ namespace RabbitMQApp
             .Build();
 
             var hostName = configuration.GetSection("RabbitMQ:HostName").Value;
-            string queueName = configuration.GetSection("RabbitMQ:queueName").Value;
+
+            string queueName = GetQueueName();
 
             if (hostName == null )
             {
@@ -34,11 +37,58 @@ namespace RabbitMQApp
                         break; // Exit the loop if the user types 'exit'
                     }
 
+                    var messageObject = new MessageFormat
+                    {
+                        Type = "Text",
+                        Content = message,
+                        From = "User1",
+                        To="",
+                        Status=""
+                    };
+
+                    string serializedMessage = JsonSerializer.Serialize(messageObject);
+
                     Console.WriteLine("Sending message...");
-                    sender.SendMessage(queueName, message);
+                    sender.SendMessage(queueName, serializedMessage);
                     Console.WriteLine("Message sent successfully...");
+
+
+                    Console.Write("Do you want to change the queue name? (yes/no): ");
+                    string changeQueueName = Console.ReadLine().ToLower();
+
+                    if (changeQueueName == "yes")
+                    {
+                        queueName = GetQueueName();
+                    }
                 }
             }
+        
         }
+
+        static string GetQueueName()
+        {
+
+            Console.Write("Enter the queue name: ");
+            string queueName = Console.ReadLine();
+
+
+            if (string.IsNullOrEmpty(queueName))
+            {
+                 queueName = configuration.GetSection("RabbitMQ:queueName").Value;
+
+            }
+
+            return queueName;
+        }
+
+        public class MessageFormat
+        {
+            public string Type { get; set; }
+            public string From { get; set; }
+            public string To { get; set; }
+            public string Status { get; set; }
+            public string Content { get; set; }
+        }
+
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "s2wpxcaF1AW4iMzQmBLdUYXWjE5Q+lvmfwXdgt1VgWAgXYaL0O3dabdDQYjKNz6KuAZss57C56IS+PK9wkbF8g==",
+  "dgSpecHash": "iolnLSGnyJunDXt3/qmgJRl0CaOiscSbZ/+E74QgbtoBLb/bIeX6pkGCJgv1flLmoEWq7xhVbKdfc9wVuSGz8Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Gimhana\\Desktop\\testing\\TTF\\utilities\\RabbitMQTestApp\\RabbitMQSender\\RabbitMQSender.csproj",
+  "projectFilePath": "C:\\Users\\Gimhana\\Desktop\\testing\\TTF\\RabbitMQTestApplcation_DotNet\\RabbitMQTestApp\\RabbitMQSender\\RabbitMQSender.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gimhana\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\Gimhana\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",

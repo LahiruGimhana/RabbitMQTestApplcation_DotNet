@@ -8,18 +8,20 @@ namespace RabbitMQSender
     public class Sender
     {
         private string hostName;
+        private ConnectionFactory factory;
+        private IConnection connection;
+        private IModel channel;
 
         public Sender(string hostName)
         {
             this.hostName = hostName;
+            this.factory = new ConnectionFactory() { HostName = hostName };
+            this.connection = factory.CreateConnection();
+            this.channel = connection.CreateModel();
         }
 
         public void SendMessage(string queueName, string message)
         {
-            var factory = new ConnectionFactory() { HostName = hostName };
-
-            using (var connection = factory.CreateConnection())
-            using (var channel = connection.CreateModel())
             {
                 channel.QueueDeclare(queue: queueName,
                                      durable: false,

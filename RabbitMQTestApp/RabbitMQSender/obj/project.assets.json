@@ -643,11 +643,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gimhana\\Desktop\\testing\\TTF\\utilities\\RabbitMQTestApp\\RabbitMQSender\\RabbitMQSender.csproj",
+      "projectUniqueName": "C:\\Users\\Gimhana\\Desktop\\testing\\TTF\\RabbitMQTestApplcation_DotNet\\RabbitMQTestApp\\RabbitMQSender\\RabbitMQSender.csproj",
       "projectName": "RabbitMQSender",
-      "projectPath": "C:\\Users\\Gimhana\\Desktop\\testing\\TTF\\utilities\\RabbitMQTestApp\\RabbitMQSender\\RabbitMQSender.csproj",
+      "projectPath": "C:\\Users\\Gimhana\\Desktop\\testing\\TTF\\RabbitMQTestApplcation_DotNet\\RabbitMQTestApp\\RabbitMQSender\\RabbitMQSender.csproj",
       "packagesPath": "C:\\Users\\Gimhana\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gimhana\\Desktop\\testing\\TTF\\utilities\\RabbitMQTestApp\\RabbitMQSender\\obj\\",
+      "outputPath": "C:\\Users\\Gimhana\\Desktop\\testing\\TTF\\RabbitMQTestApplcation_DotNet\\RabbitMQTestApp\\RabbitMQSender\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Gimhana\\AppData\\Roaming\\NuGet\\NuGet.Config",

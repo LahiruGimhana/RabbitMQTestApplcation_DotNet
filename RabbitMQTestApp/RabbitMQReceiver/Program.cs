@@ -1,5 +1,5 @@
 ﻿using Microsoft.Extensions.Configuration;
-using RabbitMQReceiver;
+using RabbitMQSender;
 using System;
 
 namespace RabbitMQApp

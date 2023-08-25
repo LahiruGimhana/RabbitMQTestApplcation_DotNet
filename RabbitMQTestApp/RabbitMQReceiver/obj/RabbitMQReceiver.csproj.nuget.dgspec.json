@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gimhana\\Desktop\\testing\\TTF\\utilities\\RabbitMQTestApp\\RabbitMQReceiver\\RabbitMQReceiver.csproj": {}
+    "C:\\Users\\Gimhana\\Desktop\\testing\\TTF\\RabbitMQTestApplcation_DotNet\\RabbitMQTestApp\\RabbitMQReceiver\\RabbitMQReceiver.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gimhana\\Desktop\\testing\\TTF\\utilities\\RabbitMQTestApp\\RabbitMQReceiver\\RabbitMQReceiver.csproj": {
+    "C:\\Users\\Gimhana\\Desktop\\testing\\TTF\\RabbitMQTestApplcation_DotNet\\RabbitMQTestApp\\RabbitMQReceiver\\RabbitMQReceiver.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gimhana\\Desktop\\testing\\TTF\\utilities\\RabbitMQTestApp\\RabbitMQReceiver\\RabbitMQReceiver.csproj",
+        "projectUniqueName": "C:\\Users\\Gimhana\\Desktop\\testing\\TTF\\RabbitMQTestApplcation_DotNet\\RabbitMQTestApp\\RabbitMQReceiver\\RabbitMQReceiver.csproj",
         "projectName": "RabbitMQReceiver",
-        "projectPath": "C:\\Users\\Gimhana\\Desktop\\testing\\TTF\\utilities\\RabbitMQTestApp\\RabbitMQReceiver\\RabbitMQReceiver.csproj",
+        "projectPath": "C:\\Users\\Gimhana\\Desktop\\testing\\TTF\\RabbitMQTestApplcation_DotNet\\RabbitMQTestApp\\RabbitMQReceiver\\RabbitMQReceiver.csproj",
         "packagesPath": "C:\\Users\\Gimhana\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gimhana\\Desktop\\testing\\TTF\\utilities\\RabbitMQTestApp\\RabbitMQReceiver\\obj\\",
+        "outputPath": "C:\\Users\\Gimhana\\Desktop\\testing\\TTF\\RabbitMQTestApplcation_DotNet\\RabbitMQTestApp\\RabbitMQReceiver\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gimhana\\AppData\\Roaming\\NuGet\\NuGet.Config",
