@@ -1,0 +1,5 @@
+{
+  "RabbitMQ": {
+    "HostName": "rabbitmq.uc.dev.tetherfi.cloud"
+  }
+}
